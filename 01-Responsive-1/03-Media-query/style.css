@@ -29,3 +29,21 @@ body {
 	zelená		#2ecc71
 	červená		#e74c3c
 */
+
+.obdelnik {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .obdelnik {
+    display: block;
+    background-color: #e74c3c;
+    border-width: 15px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .obdelnik {
+    background-color: dodgerblue;
+  }
+}
